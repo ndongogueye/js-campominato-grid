@@ -4,7 +4,7 @@ document.getElementById("generaGrigliaBtn").addEventListener("click", function()
 
 
     let righe = 10;
-    let colonne = 10;
+    var colonne = 10;
 
     for (let i = 1; i <= righe; i++) {
       for (let j = 1; j <= colonne; j++) {
