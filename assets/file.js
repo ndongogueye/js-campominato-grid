@@ -8,7 +8,7 @@ document.getElementById("generaGrigliaBtn").addEventListener("click", function()
 
     for (let i = 1; i <= righe; i++) {
       for (let j = 1; j <= colonne; j++) {
-        var cella = document.createElement("div");
+        let cella = document.createElement("div");
         cella.className = "cella";
         cella.innerText = (i - 1) * colonne + j;
 
